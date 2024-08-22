@@ -4,9 +4,9 @@ const RecoveryPhrase = () => {
   return (
     <Box w="311px" mih="600px">
       <Box>
-        <Text fz={18} fw={600} c="#E84F1F" ta="center">
-          Write Down your wallet <br />
-          recovery phrase
+        <Text fz={25} lh="25px" fw={600} c="#E84F1F" ta="center">
+          Write Down Your Wallet <br />
+          Recovery Phrase
         </Text>
         <Box fz={20} fw={500} bg="#caf0f8" px={20} my={15}>
           wait crop render punch odor execute misery
