@@ -11,7 +11,7 @@ function App() {
         <Flex justify="center" align="center" gap={100} direction="column">
           <Box
             p={20}
-            bd="1px solid black"
+            // bd="1px solid black"
             style={{
               borderRadius: "20px",
             }}
@@ -20,7 +20,7 @@ function App() {
           </Box>
           <Box
             p={20}
-            bd="1px solid black"
+            // bd="1px solid black"
             style={{
               borderRadius: "20px",
             }}
@@ -29,7 +29,7 @@ function App() {
           </Box>
           <Box
             p={20}
-            bd="1px solid black"
+            // bd="1px solid black"
             style={{
               borderRadius: "20px",
             }}
