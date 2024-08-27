@@ -67,7 +67,7 @@ const Transaction = () => {
             </Flex>
           </Grid.Col>
         </Grid>
-        <Flex justify="center" align="center" gap={10} p={20}>
+        <Flex justify="center" align="center" gap={25} p={20}>
           <Button bg="#E84F1F" w={100} p={1}>
             EXCHANGE
           </Button>
@@ -211,6 +211,73 @@ const Transaction = () => {
                   </Flex>
                 </Box>
                 <Text>0.048 ETH</Text>
+              </Flex>
+            </Box>
+            <Box
+              style={{
+                borderTop: "1px solid #b7d1da",
+                marginBottom: "10px",
+              }}
+            >
+              <Text ta="left" fz={10} c="#3d3b3c">
+                #6-8/26/2024 at 18:05
+              </Text>
+              <Flex justify="space-between" align="center" gap={73}>
+                <Box>
+                  <Flex align="center" gap={20}>
+                    <FaEthereum fontSize={30} color="#627eea" />
+                    <Box>
+                      <Text fz={10} mb={5}>
+                        A3eC993092D90x6fAB3c94
+                      </Text>
+                      <Text
+                        fz={10}
+                        c="#E74C3C"
+                        bg="#FDEDEC"
+                        ta="center"
+                        w={54}
+                        style={{ borderRadius: "5px" }}
+                      >
+                        Rejected
+                      </Text>
+                    </Box>
+                  </Flex>
+                </Box>
+                <Text>0.208 ETH</Text>
+              </Flex>
+            </Box>
+            <Box
+              style={{
+                borderTop: "1px solid #b7d1da",
+                marginBottom: "10px",
+              }}
+            >
+              <Text ta="left" fz={10} c="#3d3b3c">
+                #7-8/25/2024 at 02:30
+              </Text>
+              <Flex justify="space-between" align="center" gap={73}>
+                <Box>
+                  <Flex align="center" gap={20}>
+                    <FaBtc fontSize={30} color="#ff7f11" />
+                    <Box>
+                      <Text fz={10} mb={5}>
+                        Gefi2DMPTfTL1A1zP1eP5Q
+                      </Text>
+                      <Text
+                        fz={10}
+                        c="#E84F1F"
+                        bg="#F5F2E0"
+                        ta="center"
+                        w={54}
+                        style={{ borderRadius: "5px" }}
+                      >
+                        Approved
+                      </Text>
+                    </Box>
+                  </Flex>
+                </Box>
+
+                <Text> 0.407 BTC</Text>
               </Flex>
             </Box>
           </Flex>

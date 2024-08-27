@@ -7,7 +7,7 @@ import RecoveryPhrase from "./pages/currency-exchange/RecoveryPhrase";
 function App() {
   return (
     <Box p={100}>
-      <Box bg="white" w="390px">
+      <Box bg="white" miw="390px">
         <Flex justify="center" align="center" gap={100} direction="column">
           <Box
             p={20}
